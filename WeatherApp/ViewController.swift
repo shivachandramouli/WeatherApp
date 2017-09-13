@@ -2,6 +2,7 @@
 import UIKit
 import WeatherAPI
 
+//List of constants related to the web service API
 struct ServerAPI {
     
     static let openWeatherURL = "https://api.openweathermap.org/data/2.5/"
@@ -29,6 +30,8 @@ class ViewController: UIViewController, UITextFieldDelegate, UITableViewDataSour
         textField?.delegate = self
         self.tableView?.estimatedRowHeight = 90.0
         
+        //Check if the searched city was stored locally, if so retrieve 
+        //the city and execute a search
         let cityName =  UserDefaults.standard.object(forKey: cachedCity) as? String
         
         if cityName != nil && (cityName?.characters.count)! > 0 {
@@ -58,21 +61,31 @@ class ViewController: UIViewController, UITextFieldDelegate, UITableViewDataSour
         executeSearch()
     }
     
+    //Execute the search for the city the user has typed
     func executeSearch() {
         
+        //Dismiss the text field
         textField?.resignFirstResponder()
         searchTerm = textField?.text
         var requestUrl = ""
         if let searchTermText = searchTerm {
+            
+            //If the search term was typed, save the search term before executing the search
             UserDefaults.standard.set(searchTermText, forKey: cachedCity)
             UserDefaults.standard.synchronize()
             searchLabel?.text = "You searched for \(searchTermText)"
+            
+            //Frame the search request URL
             requestUrl = ServerAPI.openWeatherURL + "forecast?q=\(searchTermText)&APPID=" + ServerAPI.APPID + "&cnt=5&unit=metrics"
         }
         
         textField?.text = ""
         
+        //Check network availability, if not available, return
+        
         checkNetworkAvailability()
+        
+        //Call web service to request for weather information
         weatherAPI.getWeatherInfo(url: requestUrl, onSuccess: { (weatherAPICollection) in
             
             if weatherAPICollection.weatherAPIModel.count > 0 {
