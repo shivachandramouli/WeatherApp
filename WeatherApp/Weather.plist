@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>906</key>
+	<string>hail</string>
+	<key>905</key>
+	<string>windy</string>
+	<key>904</key>
+	<string>hot</string>
+	<key>903</key>
+	<string>cold</string>
+	<key>902</key>
+	<string>hurricane</string>
+	<key>901</key>
+	<string>tropical storm</string>
+	<key>900</key>
+	<string>tornado</string>
+	<key>804</key>
+	<string>overcast clouds</string>
+	<key>803</key>
+	<string>broken clouds</string>
+	<key>802</key>
+	<string>scattered clouds</string>
+	<key>801</key>
+	<string>few clouds</string>
+	<key>800</key>
+	<string>clear sky</string>
+	<key>781</key>
+	<string>tornado</string>
+	<key>771</key>
+	<string>squalls</string>
+	<key>762</key>
+	<string>volcanic ash</string>
+	<key>761</key>
+	<string>dust</string>
+	<key>751</key>
+	<string>sand</string>
+	<key>741</key>
+	<string>fog</string>
+	<key>731</key>
+	<string>sand, dust whirls</string>
+	<key>721</key>
+	<string>haze</string>
+	<key>711</key>
+	<string>smoke</string>
+	<key>701</key>
+	<string>mist</string>
+	<key>622</key>
+	<string>heavy shower snow</string>
+	<key>621</key>
+	<string>shower snow</string>
+	<key>620</key>
+	<string>light shower snow</string>
+	<key>616</key>
+	<string>rain and snow</string>
+	<key>615</key>
+	<string>light rain and snow</string>
+	<key>612</key>
+	<string>shower sleet</string>
+	<key>611</key>
+	<string>sleet</string>
+	<key>602</key>
+	<string>heavy snow</string>
+	<key>601</key>
+	<string>snow</string>
+	<key>600</key>
+	<string>light snow</string>
+	<key>531</key>
+	<string>ragged shower rain</string>
+	<key>522</key>
+	<string>heavy intensity shower rain</string>
+	<key>521</key>
+	<string>shower rain</string>
+	<key>520</key>
+	<string>light intensity shower rain</string>
+	<key>511</key>
+	<string>freezing rain</string>
+	<key>504</key>
+	<string>extreme rain</string>
+	<key>503</key>
+	<string>very heavy rain</string>
+	<key>502</key>
+	<string>heavy intensity rain</string>
+	<key>501</key>
+	<string>moderate rain</string>
+	<key>500</key>
+	<string>light rain</string>
+	<key>321</key>
+	<string>shower drizzle</string>
+	<key>314</key>
+	<string>heavy shower rain and drizzle</string>
+	<key>313</key>
+	<string>shower rain and drizzle</string>
+	<key>312</key>
+	<string>heavy intensity drizzle rain	</string>
+	<key>311</key>
+	<string>drizzle rain	</string>
+	<key>310</key>
+	<string>light intensity drizzle rain	</string>
+	<key>302</key>
+	<string>heavy intensity drizzle	</string>
+	<key>301</key>
+	<string>drizzle</string>
+	<key>300</key>
+	<string>light intensity drizzle	</string>
+	<key>232</key>
+	<string>thunderstorm with heavy drizzle	</string>
+	<key>231</key>
+	<string>thunderstorm with drizzle	</string>
+	<key>230</key>
+	<string>thunderstorm with light drizzle	</string>
+	<key>221</key>
+	<string>ragged thunderstorm	</string>
+	<key>212</key>
+	<string>heavy thunderstorm	</string>
+	<key>211</key>
+	<string>thunderstorm</string>
+	<key>210</key>
+	<string>light thunderstorm	</string>
+	<key>202</key>
+	<string>thunderstorm with heavy rain	</string>
+	<key>201</key>
+	<string>thunderstorm with rain	</string>
+	<key>200</key>
+	<string>thunderstorm with light rain	</string>
+</dict>
+</plist>
